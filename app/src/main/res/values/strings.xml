@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">India in Saudi Arabia</string>
+    <string name="Mission">The purpose of this mobile app is to establish an efficient communication link between the Indian workers, spread all over Saudi Arabia, and the Indian missions in Riyadh and Jeddah. The app is user friendly, thus allowing even a blue collared worker to register his grievance with the Indian officials on a 24/7 basis. The app not only provides emergency numbers of the Embassy but also allows the sending of audio or video files. This will be a major change from the current system of registering complaints through phone or over fax</string>
+    <string-array name="genderChoice">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+</resources>

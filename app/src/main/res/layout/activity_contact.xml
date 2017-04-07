@@ -1,0 +1,126 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:background="@android:color/darker_gray">
+
+        <RelativeLayout
+        style="@style/contactBox">
+
+        <TextView
+            android:id="@+id/Name"
+            style="@style/contactTextHead"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/NameDesc"
+            android:layout_below="@+id/Name"
+            style="@style/contactTextBody"
+            android:text="Indian Embassy Riyadh" />
+
+    </RelativeLayout>
+        <RelativeLayout
+            style="@style/contactBox"
+            android:onClick="call">
+
+            <TextView
+                android:id="@+id/Call"
+                style="@style/contactTextHead"
+                android:text="Call" />
+
+            <TextView
+                android:id="@+id/CallDesc"
+                style="@style/contactTextBody"
+                android:layout_below="@+id/Call"
+                android:text="+966 11 4884697" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            style="@style/contactBox"
+            android:onClick="email">
+
+            <TextView
+                android:id="@+id/Email"
+                style="@style/contactTextHead"
+                android:text="Email" />
+
+            <TextView
+                android:id="@+id/EmailDesc"
+                android:layout_below="@+id/Email"
+                style="@style/contactTextBody"
+                android:text="madadsaudiarabia@gmail.com"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            style="@style/contactBox"
+            android:onClick="Maps">
+
+            <TextView
+                android:id="@+id/Address"
+                style="@style/contactTextHead"
+                android:text="Address" />
+
+            <TextView
+                android:id="@+id/AddressDesc"
+                android:layout_below="@+id/Address"
+                style="@style/contactTextBody"
+                android:text="Indian Embassy B-1 Diplomatic Quarter PO Box 94387 Riyadh - 11693, Saudi Arabia" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            style="@style/contactBox"
+            android:onClick="Twitter">
+
+            <TextView
+                android:id="@+id/Twitter"
+                style="@style/contactTextHead"
+                android:text="Twitter" />
+
+            <TextView
+                android:id="@+id/TwitterDesc"
+                android:layout_below="@+id/Twitter"
+                style="@style/contactTextBody"
+                android:text="\@IndianEmbRiyadh" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            style="@style/contactBox"
+            android:onClick="Website">
+
+            <TextView
+                android:id="@+id/Website"
+                style="@style/contactTextHead"
+                android:text="Website" />
+
+            <TextView
+                android:id="@+id/WebsiteDesc"
+                android:layout_below="@+id/Website"
+                style="@style/contactTextBody"
+                android:text="www.indianembassy.org.sa" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            style="@style/contactBox"
+            android:onClick="Website2">
+
+            <TextView
+                android:id="@+id/Website2"
+                style="@style/contactTextHead"
+                android:text="Website" />
+
+            <TextView
+                android:id="@+id/Website2Desc"
+                android:layout_below="@+id/Website2"
+                style="@style/contactTextBody"
+                android:text="www.IndiaInKingdom.com" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
